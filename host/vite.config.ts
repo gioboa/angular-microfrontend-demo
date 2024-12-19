@@ -7,9 +7,6 @@ export default defineConfig(({ mode }) => ({
 	build: {
 		target: 'chrome89',
 	},
-	resolve: {
-		mainFields: ['module'],
-	},
 	plugins: [
 		federation({
 			name: 'host',
